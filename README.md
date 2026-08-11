@@ -270,13 +270,13 @@
     }
 
     function withdraw(){
-      const amount = Number(prompt('डेमो Withdraw Amount लिखें'));
+      const amount = Number(prompt(' Withdraw Amount लिखें'));
       if(amount > 0 && amount <= balance){
         balance -= amount;
         updateBalance();
         alert('₹' + amount + '  बैलेंस से निकाल दिया गया');
       } else {
-        alert('पर्याप्त डेमो बैलेंस नहीं');
+        alert('पर्याप्त  बैलेंस नहीं');
       }
     }
 
